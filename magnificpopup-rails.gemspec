@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/ResidentBio/magnificpopup-rails"
   spec.license       = "MIT"
   
-  spec.files = Dir["{lib,vendor}/**/*"] + ["LICENSE.txt", "README.md"]
+  spec.files      = `git ls-files`.split("\n")
   spec.require_paths = ["lib"]
 
   spec.add_dependency 'jquery-rails', '2.3.0'
