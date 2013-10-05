@@ -1,6 +1,9 @@
 # Magnificpopup::Rails
 
-TODO: Write a gem description
+This gem is meant to be a wrap for the magnific popup jquery plugging. 
+
+In contrast to joshuajansen version(https://github.com/joshuajansen/magnific-popup-rails) this is meant to use with bootstrap sass
+
 
 ## Installation
 
@@ -18,8 +21,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+add
 
+	@import "magnific-rails"
+
+to your css manifest(Remember this is meant to use on sass mode, so avoid the require directive)
+
+for js add
+
+	//require magnific-popup
+
+on your js manifest(application.js)
 ## Contributing
 
 1. Fork it
